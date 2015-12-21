@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Devashish Purandare</title>
+    <description>My Personal Website
+</description>
+    <link>http://yourdomain.com/</link>
+    <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Mon, 21 Dec 2015 16:25:24 +0530</pubDate>
+    <lastBuildDate>Mon, 21 Dec 2015 16:25:24 +0530</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Scipy India 2015</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/assets/jpg/scipy.jpg&quot; alt=&quot;Coupons&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Just last week, I attended Scipy India 2015, an annual conference on scientific applications of Python. It was great, very informative and I learned a lot of things. Below are some of the notes I made at the conference. 
+Note: These are for my own reference, but I believe will be worth your time if you labor through my gibberish.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;scipy-india-2015---iit-bombay&quot;&gt;Scipy India 2015 - IIT Bombay&lt;/h3&gt;
+
+&lt;h2 id=&quot;day-1&quot;&gt;Day 1&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;8:30 - 09:00 AM Registration and Breakfast
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h1 id=&quot;session-1-setup&quot;&gt;Session 1: Setup*&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;9:00 - 10:00 AM
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.continuum.io/downloads&quot;&gt;Installation of Annaconda&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Virtualbox, Andreas’ virtual image/ virtualbox
+&lt;a href=&quot;http://andreask.cs.illinois.edu/tmp/sc15-tutorial.ova&quot;&gt;Andreas’ virtual image&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;session-2-introduction-to-scientific-computing-with-python&quot;&gt;Session 2: Introduction to Scientific Computing with Python&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Prabhu Ramchandran and Jarrod Millman&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;10:00 - 11:51 AM
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Shortcuts:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;ipython&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pylab&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Exit&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Start&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;End&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;
+	&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Search&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Slicing is &lt;em&gt;NOT&lt;/em&gt; copying, view of the same data.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.jarrodmillman.com/scipyindia2015tutorials.html&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;pre&gt;&lt;code&gt;01:00 - 02:00 PM Lunch
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;&lt;strong&gt;Session 3: SymPy&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Sumith&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;02:00 - 04:00 PM 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Symbolic mathematics.
+&lt;em&gt;Computer Algebra System (CAS)&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Discrete math&lt;/li&gt;
+  &lt;li&gt;Equations&lt;/li&gt;
+  &lt;li&gt;Geometry&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Example:&lt;/p&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;           &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;       
+&lt;span class=&quot;err&quot;&gt;ℯ&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;⋅&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;ℯ&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;⋅&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;init_printing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#to get LaTeX like formatting&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;simplify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&amp;#39;string&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Converts string into symbols/Simplifies&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;evalf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Evaluates the values&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;code&gt;gamma(x) == Γ(x-1)&lt;/code&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Sumith1896/scipy-2014-tutorial&quot;&gt;Slides and Notebooks&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;session-4-introduction-to-data-anaysis-with-pandas&quot;&gt;Session 4: Introduction to data anaysis with pandas**&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Bargava Subramanian&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;04:25 - 06:00 PM
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;dataframe like r&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;session-5-biopython&quot;&gt;Session 5: BioPython&lt;/h1&gt;
+&lt;p&gt;&lt;em&gt;Sourav Singh&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;06:00 - 07:00 PM
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/souravsingh/biopython_workshop&quot;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;day-2&quot;&gt;Day 2&lt;/h2&gt;
+
+&lt;h1 id=&quot;session-1-networkx&quot;&gt;Session 1: NetworkX&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Mridul Seth and Himanshu Mishra&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;09:00 - 11:00 AM
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Graph Theory in Python&lt;/li&gt;
+  &lt;li&gt;add nodes/edges&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/MridulS/NetworkX-Tutorial&quot;&gt;Tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;session-2-domain-specific-languages-and-high-performance-computing-in-python&quot;&gt;Session 2: Domain Specific Languages and High Performance computing in Python&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Andreas Klöckner&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;11:00 - 01:00 PM
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;strong&gt;NO&lt;/strong&gt; : My code is xxxx faster&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;YES&lt;/strong&gt; : My code achieves 37% of max floating point performance.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Code is a &lt;em&gt;Spaghetti mess&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Divide&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Math work&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Performance work&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mathematically-oriented mini-languages (DSLs)&lt;/li&gt;
+  &lt;li&gt;Domain-specific optimizations and transformations.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Tutorial&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Building Languages&lt;/li&gt;
+  &lt;li&gt;OpenCL&lt;/li&gt;
+  &lt;li&gt;Case study - numpy - einsum&lt;/li&gt;
+  &lt;li&gt;Loopy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Requirements&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mathema.tician.de/software/pymbolic/&quot;&gt;pymbolic&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mathema.tician.de/software/loopy/&quot;&gt;loopy&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Demo&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/inducer/languages-and-codegen-tutorial&quot;&gt;Complete tutorial&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;session-3-pandas-applications&quot;&gt;Session 3: Pandas applications&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;by Prof. Madhu Belur, Saurabh Kumar &amp;amp; Shana Moothedath&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;02:00 - 03:00 PM
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;TA&lt;/li&gt;
+  &lt;li&gt;GATE&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://github.com/saurabhkm/SciPy2015&quot;&gt;Tutorial&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;session-4-pyomo---coin-or-optimization&quot;&gt;Session 4: Pyomo - COIN-OR optimization&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;by Prof. Ashutosh Mahajan, Prof. Jayendran Venkateswaran &amp;amp; Mr. Atul Kumar&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;03:00 - 04:00 PM
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Python Optimization Modeling Objects&lt;/li&gt;
+  &lt;li&gt;Non-linear optimization&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.coin-or.org/&quot;&gt;Website&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;day-3&quot;&gt;Day 3&lt;/h2&gt;
+
+&lt;h1 id=&quot;andreas-klckners-keynote&quot;&gt;Andreas Klöckner’s Keynote&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;09:15 - 10:15 AM
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Sandy Bridge vs Broadwell performance&lt;/li&gt;
+  &lt;li&gt;Vector processor not GPU (FP math)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;OpenCL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Device Neutral&lt;/li&gt;
+  &lt;li&gt;JIT built in&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;OpenCL/CUDA/ISPC Same idea&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Some abstractions disappear/not all&lt;/li&gt;
+  &lt;li&gt;Computation is cheap, memory ins’t&lt;/li&gt;
+  &lt;li&gt;Communication is slow or power hungry or both.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;PyOpenCL&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Context - bag around all the stuff
+    &lt;ul&gt;
+      &lt;li&gt;Intel GPU&lt;/li&gt;
+      &lt;li&gt;Processor&lt;/li&gt;
+      &lt;li&gt;AMD&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;lower level device buffer&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a_dev&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#A device copy directly operated on&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;prg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Program&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&amp;quot; &lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;__kernel void twice (__global float *a)&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;{&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;    int gid = get_global_id(0);&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;    a[gid] = 2*a[gid];&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;}&lt;/span&gt;
+&lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;build&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;prg&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;twice&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;queue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;shape&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;bp&quot;&gt;None&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a_dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;result&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a_dev&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;get&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Key Algorithm : Scan
+    &lt;ul&gt;
+      &lt;li&gt;np.cumsum - sum of all previous + current&lt;/li&gt;
+      &lt;li&gt;Addition is commutative and associative&lt;/li&gt;
+      &lt;li&gt;More work to get there faster!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;loo.py
+    &lt;ul&gt;
+      &lt;li&gt;How computation works + How mapped to hardware&lt;/li&gt;
+      &lt;li&gt;Math level stays same&lt;/li&gt;
+      &lt;li&gt;counting flops&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://cs.illinois.edu/~andreask&quot;&gt;Homepage&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;python-for-statistics&quot;&gt;Python for statistics&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Jarrod Millman&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;10:15 - 11:05 AM
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Statistical Computing&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Permutation testing&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Monte Carlo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Why Python?&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;General Purpose&lt;/li&gt;
+  &lt;li&gt;Popular scientific applications&lt;/li&gt;
+  &lt;li&gt;statistical applications&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://data8.org&quot;&gt;Stat 94 at Berkeley&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Permutation Testing&lt;/em&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;randomization - nonparametric approach to statistical significance (evidence to reject) testing (Not many assumptions)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;independent and identically-distributed random variables.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Informal hypothesis&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Null hypothesis : No effect&lt;/li&gt;
+  &lt;li&gt;Alternate : Mass increases&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;code&gt;pip install permute&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.jarrodmillman.com/scipyindia2015talk.html&quot;&gt;Slides&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;python-based-science-lab&quot;&gt;Python based science lab&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Ajith Kumar&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;11:15 - 11:45 AM 
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;expeyes&lt;/li&gt;
+  &lt;li&gt;microcontroller for data acqusition, python for program&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://seelablet.jithinbp.in&quot;&gt;http://seelablet.jithinbp.in&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;symengine-and-sympy&quot;&gt;Symengine and Sympy&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Sumith&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;11:45 - 12:10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;SymEngine : Core C++&lt;/li&gt;
+  &lt;li&gt;Use wrappers to SymPy&lt;/li&gt;
+  &lt;li&gt;Hot-swappable to SymPy&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Cython - blend of Python and C ::&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;cdef int i,a,b;&lt;/code&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;sandhi--visual-programming-software&quot;&gt;Sandhi : Visual Programming Software&lt;/h1&gt;
+
+&lt;pre&gt;&lt;code&gt;12:10 - 12:35
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Replacement for Labview - Laboratory Virtual Instrument Engineering Workbench&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;open-source-optimization----coin-or&quot;&gt;Open Source optimization  - COIN OR&lt;/h1&gt;
+
+&lt;p&gt;&lt;em&gt;Prof Ted Ralphs&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;02:40 - 03:10
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Algebraic Modelling Languages&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://coral.ie.lehigh.edu/ted/teaching/coin-or&quot;&gt;COIN OR suite&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;hr /&gt;
+</description>
+        <pubDate>Fri, 18 Dec 2015 14:27:46 +0530</pubDate>
+        <link>http://yourdomain.com/2015/12/18/scipy-india-2015.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/12/18/scipy-india-2015.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Movie: The Book Thief</title>
+        <description>&lt;p&gt;This is &lt;em&gt;NOT&lt;/em&gt; a movie review. I don’t know enough about movies to do a review.&lt;/p&gt;
+
+&lt;p&gt;With that out of the way, I’d really recommend everyone to watch this one. I came up across it while reading a review of “The Grand Budapest Hotel”.&lt;/p&gt;
+
+&lt;p&gt;The movie is set in WW II era Germany, and is a story of war, love, hate and books. Shot in a quirky way, each scene is a delight to the eye. The story and acting is amazing. High on emotions, it’ll bring  a tear to your eye, even if you, like me, are dead inside.&lt;/p&gt;
+
+&lt;p&gt;I wish more such movies were made.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 19 Sep 2015 07:31:15 +0530</pubDate>
+        <link>http://yourdomain.com/2015/09/19/movie-the-book-thief.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/09/19/movie-the-book-thief.html</guid>
+        
+        
+      </item>
+    
+      <item>
+        <title>Hello World!</title>
+        <description>&lt;h5 id=&quot;welcome&quot;&gt;Welcome!&lt;/h5&gt;
+&lt;p&gt;I finally did it! This is a VPS hosted ghost blog!
+This along with my site http://devashishpurandare.me are now mostly functional. Cheers all around!&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;p&gt;On this blog, I’ll be writing about Code, Life and other stuff. I’ll try to keep away from ‘interesting’ topics such as politics or sports, but if ther do end up creeping in, forgive me.&lt;/p&gt;
+
+&lt;p&gt;I’m still new to this whole concept, so expect many mistakes…&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Jul 2015 06:26:14 +0530</pubDate>
+        <link>http://yourdomain.com/2015/07/12/hello-world.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/07/12/hello-world.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

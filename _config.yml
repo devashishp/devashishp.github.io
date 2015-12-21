@@ -1,0 +1,13 @@
+# Site settings
+title: Devashish Purandare
+email: devashish@outlook.com
+description: > # this means to ignore newlines until "baseurl:"
+  My Personal Website
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: deva13e
+github_username:  devashishp
+linkedin_username: devashishp
+timezone: Asia/Kolkata
+# Build settings
+markdown: kramdown
