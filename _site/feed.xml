@@ -6,9 +6,22 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 22 Dec 2015 13:40:57 +0530</pubDate>
-    <lastBuildDate>Tue, 22 Dec 2015 13:40:57 +0530</lastBuildDate>
+    <pubDate>Tue, 22 Dec 2015 20:26:18 +0530</pubDate>
+    <lastBuildDate>Tue, 22 Dec 2015 20:26:18 +0530</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Spooked by ghost</title>
+        <description>&lt;p&gt;So, I just shifted my blog from Ghost to Jekyll. Since I couldn’t figure out Jekyll, I decided to use it until I could. Now I am blogging like a hacker!&lt;/p&gt;
+
+&lt;p&gt;Anyway, I am too embarrassed by the &lt;em&gt;spaghetti mess&lt;/em&gt; in my CSS and Sass, so I’ve made the repository private. Cheers! :raised_hands:&lt;/p&gt;
+</description>
+        <pubDate>Tue, 22 Dec 2015 19:17:46 +0530</pubDate>
+        <link>http://yourdomain.com/2015/12/22/spooked-by-ghost.html</link>
+        <guid isPermaLink="true">http://yourdomain.com/2015/12/22/spooked-by-ghost.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Scipy India 2015</title>
