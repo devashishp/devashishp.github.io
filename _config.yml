@@ -9,5 +9,6 @@ twitter_username: deva13e
 github_username:  devashishp
 linkedin_username: devashishp
 timezone: Asia/Kolkata
+paginate: 10
 # Build settings
 markdown: kramdown

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-
+<link href='https://fonts.googleapis.com/css?family=Noto+Sans:400,400italic,700,700italic&subset=latin,devanagari' rel='stylesheet' type='text/css'>
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width initial-scale=1" />
@@ -68,7 +68,7 @@
   <article class="post-content">
     <p><img src="/assets/jpg/scipy.jpg" alt="Coupons" /></p>
 
-<p>Just last week, I attended Scipy India 2015, an annual conference on scientific applications of Python. It was great, very informative and I learned a lot of things. Below are some of the notes I made at the conference. 
+<p>Just last week, I attended Scipy India 2015, an annual conference on scientific applications of Python. It was great, very informative and I learned a lot of things. Below are some of the notes I made at the conference.
 Note: These are for my own reference, but I believe will be worth your time if you labor through my gibberish.</p>
 
 <hr />
@@ -80,7 +80,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
 <pre><code>8:30 - 09:00 AM Registration and Breakfast
 </code></pre>
 
-<h1 id="session-1-setup">Session 1: Setup*</h1>
+<h1 id="session-1-setup">Session 1: Setup</h1>
 
 <pre><code>9:00 - 10:00 AM
 </code></pre>
@@ -107,10 +107,10 @@ Note: These are for my own reference, but I believe will be worth your time if y
 <p>Shortcuts:</p>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">ipython</span> <span class="o">-</span><span class="n">pylab</span>
-	<span class="n">Ctrl</span> <span class="o">+</span> <span class="n">D</span> <span class="n">Exit</span>
-	<span class="n">Ctrl</span> <span class="o">+</span> <span class="n">a</span> <span class="n">Start</span> <span class="n">of</span> <span class="n">line</span>
-	<span class="n">Ctrl</span> <span class="o">+</span> <span class="n">e</span> <span class="n">End</span> <span class="n">of</span> <span class="n">line</span>
-	<span class="n">Ctrl</span> <span class="o">+</span> <span class="n">r</span> <span class="n">Search</span></code></pre></div>
+<span class="n">Ctrl</span> <span class="o">+</span> <span class="n">D</span> <span class="n">Exit</span>
+<span class="n">Ctrl</span> <span class="o">+</span> <span class="n">a</span> <span class="n">Start</span> <span class="n">of</span> <span class="n">line</span>
+<span class="n">Ctrl</span> <span class="o">+</span> <span class="n">e</span> <span class="n">End</span> <span class="n">of</span> <span class="n">line</span>
+<span class="n">Ctrl</span> <span class="o">+</span> <span class="n">r</span> <span class="n">Search</span></code></pre></div>
 
 <ul>
   <li>Slicing is <em>NOT</em> copying, view of the same data.</li>
@@ -126,7 +126,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
 
 <p><em>Sumith</em></p>
 
-<pre><code>02:00 - 04:00 PM 
+<pre><code>02:00 - 04:00 PM
 </code></pre>
 
 <p>Symbolic mathematics.
@@ -316,7 +316,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
 </ul>
 
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="mi">2</span><span class="o">*</span><span class="n">a_dev</span> <span class="c">#A device copy directly operated on</span>
-<span class="n">prg</span> <span class="o">=</span> <span class="n">cl</span><span class="o">.</span><span class="n">Program</span><span class="p">(</span><span class="n">ctx</span><span class="p">,</span> <span class="s">&quot;&quot;&quot; </span>
+<span class="n">prg</span> <span class="o">=</span> <span class="n">cl</span><span class="o">.</span><span class="n">Program</span><span class="p">(</span><span class="n">ctx</span><span class="p">,</span> <span class="s">&quot;&quot;&quot;</span>
 <span class="s">__kernel void twice (__global float *a)</span>
 <span class="s">{</span>
 <span class="s">    int gid = get_global_id(0);</span>
@@ -400,7 +400,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
 
 <p><em>Ajith Kumar</em></p>
 
-<pre><code>11:15 - 11:45 AM 
+<pre><code>11:15 - 11:45 AM
 </code></pre>
 
 <ul>
@@ -459,7 +459,28 @@ Note: These are for my own reference, but I believe will be worth your time if y
 <hr />
 
   </article>
+  <div id="disqus_thread"></div>
+  <script>
+  /**
+  * RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+  * LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+  */
+  /*
+  var disqus_config = function () {
+  this.page.url = PAGE_URL; // Replace PAGE_URL with your page's canonical URL variable
+  this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+  };
+  */
+  (function() { // DON'T EDIT BELOW THIS LINE
+  var d = document, s = d.createElement('script');
 
+  s.src = '//devashishpgithubio.disqus.com/embed.js';
+
+  s.setAttribute('data-timestamp', +new Date());
+  (d.head || d.body).appendChild(s);
+  })();
+  </script>
+  <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 </div>
 
       </div>
@@ -476,6 +497,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
         <ul class="contact-list">
           <li>Devashish Purandare</li>
           <li><a href="mailto:devashish@outlook.com">devashish@outlook.com</a></li>
+          <li><a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/80x15.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</li>
         </ul>
       </div>
 
@@ -509,6 +531,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
             </a>
           </li>
           
+
         </ul>
       </div>
 
@@ -516,6 +539,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
         <p class="text">My Personal Website
 </p>
       </div>
+
     </div>
 
   </div>

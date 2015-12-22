@@ -6,15 +6,15 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 21 Dec 2015 16:25:24 +0530</pubDate>
-    <lastBuildDate>Mon, 21 Dec 2015 16:25:24 +0530</lastBuildDate>
+    <pubDate>Tue, 22 Dec 2015 13:38:49 +0530</pubDate>
+    <lastBuildDate>Tue, 22 Dec 2015 13:38:49 +0530</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
         <title>Scipy India 2015</title>
         <description>&lt;p&gt;&lt;img src=&quot;/assets/jpg/scipy.jpg&quot; alt=&quot;Coupons&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Just last week, I attended Scipy India 2015, an annual conference on scientific applications of Python. It was great, very informative and I learned a lot of things. Below are some of the notes I made at the conference. 
+&lt;p&gt;Just last week, I attended Scipy India 2015, an annual conference on scientific applications of Python. It was great, very informative and I learned a lot of things. Below are some of the notes I made at the conference.
 Note: These are for my own reference, but I believe will be worth your time if you labor through my gibberish.&lt;/p&gt;
 
 &lt;hr /&gt;
@@ -26,7 +26,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
 &lt;pre&gt;&lt;code&gt;8:30 - 09:00 AM Registration and Breakfast
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;h1 id=&quot;session-1-setup&quot;&gt;Session 1: Setup*&lt;/h1&gt;
+&lt;h1 id=&quot;session-1-setup&quot;&gt;Session 1: Setup&lt;/h1&gt;
 
 &lt;pre&gt;&lt;code&gt;9:00 - 10:00 AM
 &lt;/code&gt;&lt;/pre&gt;
@@ -53,10 +53,10 @@ Note: These are for my own reference, but I believe will be worth your time if y
 &lt;p&gt;Shortcuts:&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;n&quot;&gt;ipython&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pylab&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Exit&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Start&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;End&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;
-	&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Search&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;D&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Exit&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Start&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;e&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;End&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;of&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;line&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;Ctrl&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;r&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;Search&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Slicing is &lt;em&gt;NOT&lt;/em&gt; copying, view of the same data.&lt;/li&gt;
@@ -72,7 +72,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
 
 &lt;p&gt;&lt;em&gt;Sumith&lt;/em&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;02:00 - 04:00 PM 
+&lt;pre&gt;&lt;code&gt;02:00 - 04:00 PM
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Symbolic mathematics.
@@ -262,7 +262,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
 &lt;/ul&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;*&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;a_dev&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#A device copy directly operated on&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;prg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Program&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&amp;quot; &lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;prg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;cl&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;Program&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ctx&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;&amp;quot;&amp;quot;&amp;quot;&lt;/span&gt;
 &lt;span class=&quot;s&quot;&gt;__kernel void twice (__global float *a)&lt;/span&gt;
 &lt;span class=&quot;s&quot;&gt;{&lt;/span&gt;
 &lt;span class=&quot;s&quot;&gt;    int gid = get_global_id(0);&lt;/span&gt;
@@ -346,7 +346,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
 
 &lt;p&gt;&lt;em&gt;Ajith Kumar&lt;/em&gt;&lt;/p&gt;
 
-&lt;pre&gt;&lt;code&gt;11:15 - 11:45 AM 
+&lt;pre&gt;&lt;code&gt;11:15 - 11:45 AM
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;ul&gt;

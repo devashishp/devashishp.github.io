@@ -6,7 +6,7 @@ date: '2015-12-18 14:27:46'
 
 ![Coupons](/assets/jpg/scipy.jpg)
 
-Just last week, I attended Scipy India 2015, an annual conference on scientific applications of Python. It was great, very informative and I learned a lot of things. Below are some of the notes I made at the conference. 
+Just last week, I attended Scipy India 2015, an annual conference on scientific applications of Python. It was great, very informative and I learned a lot of things. Below are some of the notes I made at the conference.
 Note: These are for my own reference, but I believe will be worth your time if you labor through my gibberish.
 
 ---
@@ -18,10 +18,10 @@ Note: These are for my own reference, but I believe will be worth your time if y
 
 
     8:30 - 09:00 AM Registration and Breakfast
-    
-    
-#Session 1: Setup*
-    
+
+
+#Session 1: Setup
+
 	9:00 - 10:00 AM
 
 1. [Installation of Annaconda](https://www.continuum.io/downloads)
@@ -39,14 +39,14 @@ ______
 	10:00 - 11:51 AM
 
 
- 
+
 Shortcuts:
 {% highlight python %}
-	ipython -pylab
-	Ctrl + D Exit
-	Ctrl + a Start of line
-	Ctrl + e End of line
-	Ctrl + r Search
+ipython -pylab
+Ctrl + D Exit
+Ctrl + a Start of line
+Ctrl + e End of line
+Ctrl + r Search
 {% endhighlight %}
 - Slicing is *NOT* copying, view of the same data.
 - [Slides](http://www.jarrodmillman.com/scipyindia2015tutorials.html)
@@ -59,8 +59,8 @@ ________
 
 *Sumith*
 
-    02:00 - 04:00 PM 
-    
+    02:00 - 04:00 PM
+
 Symbolic mathematics.
 *Computer Algebra System (CAS)*
 
@@ -84,7 +84,7 @@ ___
 #Session 4: Introduction to data anaysis with pandas**  
 
 *Bargava Subramanian*
- 
+
     04:25 - 06:00 PM
 
 - dataframe like r
@@ -126,7 +126,7 @@ ___
 - **YES** : My code achieves 37% of max floating point performance.
 
 - Code is a *Spaghetti mess*
-    
+
 Divide
 
 - Math work
@@ -172,7 +172,7 @@ ___
 *by Prof. Ashutosh Mahajan, Prof. Jayendran Venkateswaran & Mr. Atul Kumar*
 
     03:00 - 04:00 PM
-    
+
 - Python Optimization Modeling Objects
 - Non-linear optimization
 - [Website](http://www.coin-or.org/)
@@ -184,7 +184,7 @@ ___
 #Andreas Klöckner's Keynote
 
     09:15 - 10:15 AM
-    
+
 - Sandy Bridge vs Broadwell performance
 - Vector processor not GPU (FP math)
 
@@ -212,7 +212,7 @@ ___
 
 {% highlight python %}
 2*a_dev #A device copy directly operated on
-prg = cl.Program(ctx, """ 
+prg = cl.Program(ctx, """
 __kernel void twice (__global float *a)
 {
     int gid = get_global_id(0);
@@ -231,7 +231,7 @@ result = a_dev.get()
     - How computation works + How mapped to hardware
     - Math level stays same
     - counting flops
-    
+
 [Homepage](http://cs.illinois.edu/~andreask)
 
 ___
@@ -242,7 +242,7 @@ ___
 *Jarrod Millman*
 
     10:15 - 11:05 AM
-    
+
 
 - Statistical Computing
 - Permutation testing
@@ -255,16 +255,16 @@ ___
 - General Purpose
 - Popular scientific applications
 - statistical applications
- 
+
 [Stat 94 at Berkeley](http://data8.org)
 
 *Permutation Testing*
 
-- randomization - nonparametric approach to statistical significance (evidence to reject) testing (Not many assumptions) 
+- randomization - nonparametric approach to statistical significance (evidence to reject) testing (Not many assumptions)
 
 - independent and identically-distributed random variables.
 
-- Informal hypothesis 
+- Informal hypothesis
 
 - Null hypothesis : No effect
 - Alternate : Mass increases
@@ -279,7 +279,7 @@ ___
 
 *Ajith Kumar*
 
-    11:15 - 11:45 AM 
+    11:15 - 11:45 AM
 
 - expeyes
 - microcontroller for data acqusition, python for program
@@ -316,7 +316,7 @@ ___
 *Prof Ted Ralphs*
 
     02:40 - 03:10
-    
+
 - Algebraic Modelling Languages
 
 [COIN OR suite](http://coral.ie.lehigh.edu/ted/teaching/coin-or)
