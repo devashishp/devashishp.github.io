@@ -15,8 +15,8 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  color: #2C393B;
-  background-color: #FFFFFF;
+  color: #2e4453;
+  background-color: #f3f6f8;
   -webkit-text-size-adjust: 100%; }
 
 /**
@@ -31,8 +31,10 @@ ul, ol, dl, figure {
  * Images
  */
 img {
-  max-width: 100%;
-  vertical-align: middle; }
+  max-width: 95%;
+  vertical-align: middle;
+  margin-left: auto;
+  margin-right: auto; }
 
 /**
  * Figures
@@ -57,30 +59,30 @@ li > ol {
  * Headings
  */
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
   font-weight: 300; }
 
 /**
  * Links
  */
 a {
-  color: #00AACC;
+  color: #324155;
   text-decoration: none; }
   a:visited {
-    color: #006a80; }
+    color: #030405; }
   a:hover {
-    color: #2C393B;
-    text-decoration: underline; }
+    color: #030405; }
 
 /**
  * Blockquotes
  */
 blockquote {
-  color: #B90000;
-  border-left: 4px solid #ff8686;
+  color: #324155;
+  border-left: 4px solid #93a6c0;
+  background-color: #f1ffff;
   padding-left: 15px;
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic; }
+  font-size: 16px;
+  letter-spacing: 0px; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -90,7 +92,7 @@ blockquote {
 pre,
 code {
   font-size: 15px;
-  border: 1px solid #ff8686;
+  border: 1px solid #93a6c0;
   border-radius: 3px;
   background-color: #f1ffff; }
 
@@ -138,25 +140,23 @@ pre {
   height: 16px;
   vertical-align: middle; }
   .icon > svg path {
-    fill: #B90000; }
+    fill: #324155; }
 
 /**
  * Site header
  */
 .site-header {
-  border-top: 5px solid #3a0000;
-  border-bottom: 1px solid #ff8686;
   min-height: 56px;
+  background-color: #e7eaef;
   position: relative; }
 
 .site-title {
+  font-family: 'Merriweather', serif;
   font-size: 26px;
   line-height: 56px;
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left; }
-  .site-title, .site-title:visited {
-    color: #3a0000; }
 
 .site-nav {
   float: right;
@@ -164,7 +164,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #2C393B;
+    color: #2e4453;
     line-height: 1.5;
     margin-left: 30px; }
   @media screen and (max-width: 600px) {
@@ -172,8 +172,8 @@ pre {
       position: absolute;
       top: 9px;
       right: 30px;
-      background-color: #FFFFFF;
-      border: 1px solid #ff8686;
+      background-color: #f3f6f8;
+      border: 1px solid #93a6c0;
       border-radius: 5px;
       text-align: right; }
       .site-nav .menu-icon {
@@ -188,7 +188,7 @@ pre {
           width: 18px;
           height: 15px; }
           .site-nav .menu-icon > svg path {
-            fill: #3a0000; }
+            fill: #030405; }
       .site-nav .trigger {
         clear: both;
         display: none; }
@@ -203,7 +203,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #ff8686;
+  background-color: #e7eaef;
   padding: 30px 0; }
 
 .footer-heading {
@@ -217,7 +217,7 @@ pre {
 
 .footer-col-wrapper {
   font-size: 15px;
-  color: #B90000;
+  color: #324155;
   margin-left: -15px; }
 
 .footer-col {
@@ -258,20 +258,23 @@ pre {
   padding: 30px 0; }
 
 .page-heading {
-  font-size: 20px; }
+  font-size: 20px;
+  margin-bottom: 0; }
 
 .post-list {
   margin-left: 0;
   list-style: none; }
   .post-list > li {
-    margin-bottom: 30px; }
+    margin-bottom: 0; }
 
 .post-meta {
+  margin-bottom: 0;
   font-size: 14px;
-  color: #B90000; }
+  color: #324155; }
 
 .post-link {
   display: block;
+  margin-bottom: 0;
   font-size: 24px; }
 
 /**
@@ -281,20 +284,20 @@ pre {
   margin-bottom: 30px; }
 
 .post-title {
-  font-size: 42px;
+  font-size: 30px;
   letter-spacing: -1px;
   line-height: 1; }
   @media screen and (max-width: 800px) {
     .post-title {
-      font-size: 36px; } }
+      font-size: 24px; } }
 
 .post-content {
   margin-bottom: 30px; }
   .post-content h2 {
-    font-size: 32px; }
+    font-size: 28px; }
     @media screen and (max-width: 800px) {
       .post-content h2 {
-        font-size: 28px; } }
+        font-size: 24px; } }
   .post-content h3 {
     font-size: 26px; }
     @media screen and (max-width: 800px) {
