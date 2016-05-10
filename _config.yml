@@ -4,11 +4,18 @@ email: devashish@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   My Personal Website
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: deva13e
+url: "http://devashishpurandare.me" # the base hostname & protocol for your site
+twitter_username: dev14e
 github_username:  devashishp
 linkedin_username: devashishp
 timezone: Asia/Kolkata
-
+gems:
+  - jemoji
+  - jekyll-redirect-from
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-sitemap
 # Build settings
+paginate: 5
+paginate_path: "/:num/"
 markdown: kramdown

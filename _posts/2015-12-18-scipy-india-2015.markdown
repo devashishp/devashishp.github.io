@@ -1,14 +1,15 @@
 ---
 layout: post
 title: Scipy India 2015
+author: dev_p
 date: '2015-12-18 14:27:46'
 ---
 
-![Coupons](/assets/jpg/scipy.jpg)
 
 Just last week, I attended Scipy India 2015, an annual conference on scientific applications of Python. It was great, very informative and I learned a lot of things. Below are some of the notes I made at the conference.
 Note: These are for my own reference, but I believe will be worth your time if you labor through my gibberish.
 
+![Coupons](/assets/jpg/scipy.jpg)
 ---
 
 ###Scipy India 2015 - IIT Bombay

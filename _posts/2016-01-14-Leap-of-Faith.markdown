@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Leap of Faith
+author: dev_p
 date: '2016-01-14 21:22:14'
 ---
 >There is a pertinent story about a man who was working on an oil platform in the North Sea. He woke up one night from a loud explosion, which suddenly set his entire oil platform on fire. In mere moments, he was surrounded by flames. Through the smoke and heat, he barely made his way out of the chaos to the platform’s edge. When he looked down over the edge, all he could see were the dark, cold, foreboding Atlantic waters.<br><br>

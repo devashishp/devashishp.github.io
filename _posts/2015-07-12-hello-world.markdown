@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Hello World!
+author: dev_p
 date: '2015-07-12 06:26:14'
 ---
 
-#####Welcome!
+##### Welcome!
 I finally did it! This is a VPS hosted ghost blog!
 This along with my site http://devashishpurandare.me are now mostly functional. Cheers all around!
 

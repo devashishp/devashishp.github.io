@@ -2,8 +2,7 @@
  * Reset some basic elements
  */
 body, h1, h2, h3, h4, h5, h6,
-p, blockquote, pre, hr,
-dl, dd, ol, ul, figure {
+p, blockquote, pre, dl, dd, ol, ul, figure {
     margin: 0;
     padding: 0;
 }
@@ -17,7 +16,7 @@ body {
     font-family: $base-font-family;
     font-size: $base-font-size;
     line-height: $base-line-height;
-    font-weight: 300;
+    font-weight: 400;
     color: $text-color;
     background-color: $background-color;
     -webkit-text-size-adjust: 100%;
@@ -28,20 +27,26 @@ body {
 /**
  * Set `margin-bottom` to maintain vertical rhythm
  */
-h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+    margin-bottom: $spacing-unit / 3;
 }
 
-
+h1, h2, h3, h4, h5, h6{
+  font-weight: 400;
+  color: #1D2933;
+}
 
 /**
  * Images
  */
 img {
-    max-width: 90%;
+    max-width: 100%;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 2px;
+    padding-bottom: 2px;
     vertical-align: middle;
     margin-left: auto;
     margin-right: auto;
@@ -78,14 +83,6 @@ li {
 
 
 
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'Merriweather', serif;
-    font-weight: 300;
-}
-
 
 
 /**
@@ -95,12 +92,9 @@ a {
     color: $brand-color;
     text-decoration: none;
 
-    &:visited {
-      color: darken($brand-color, 25%);
-    }
 
     &:hover {
-        color: darken($brand-color, 25%);
+        color: lighten($brand-color, 25%);
     }
 }
 
@@ -110,9 +104,9 @@ a {
  * Blockquotes
  */
 blockquote {
-    color: $grey-color;
-    border-left: 4px solid $grey-color-light;
-    background-color: #f1ffff;
+    // color: $grey-color;
+    border-left: 4px solid #00458c;
+    background-color: lighten(#00458c,65%);
     padding-left: $spacing-unit / 2;
     font-size: 16px;
     letter-spacing: 0px;
@@ -130,15 +124,25 @@ blockquote {
 pre,
 code {
     font-size: 15px;
-    border: 1px solid $grey-color-light;
-    border-radius: 3px;
-    background-color: #f1ffff;
+    border: 1px solid #00458c;
+    background-color: lighten(#00458c,65%);
 }
 
 code {
     padding: 1px 5px;
 }
 
+hr {
+    border: 0;
+    height: 2px;
+    background: #00458c;
+    background-image: linear-gradient(to right, #fff, #00458c, #fff);
+  // background-color: #00458c;
+}
+
+.date {
+  color : lighten($grey-color, 25%);
+}
 pre {
     padding: 8px 12px;
     //overflow-x: scroll;
@@ -151,22 +155,77 @@ pre {
 }
 
 
+/* ------- pagination -------- */
 
+.pagination {
+  height: 36px;
+}
+
+.pagination ul {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.pagination li {
+  display: inline;
+}
+
+.pagination li:first-child a {
+  border-left-width: 1px;
+  -webkit-border-radius: 3px 0 0 3px;
+  -moz-border-radius: 3px 0 0 3px;
+  border-radius: 3px 0 0 3px;
+}
+
+.pagination li:last-child a {
+  -webkit-border-radius: 0 3px 3px 0;
+  -moz-border-radius: 0 3px 3px 0;
+  border-radius: 0 3px 3px 0;
+}
+
+.pagination a {
+  float: left;
+  padding: 0 14px;
+  line-height: 34px;
+  border: 1px solid #DDD;
+  border-left-width: 0;
+}
+
+.pagination a:hover, .active a {
+  background-color: whiteSmoke;
+}
+
+.disabled a, .disabled a:hover,
+.active a, .active a:hover {
+  color: #999;
+  cursor: default;
+}
+
+.disabled a:hover {
+  background-color: transparent;
+}
 /**
  * Wrapper
  */
 .wrapper {
-    max-width: -webkit-calc(800px - (#{$spacing-unit} * 2));
-    max-width:         calc(800px - (#{$spacing-unit} * 2));
+    max-width: -webkit-calc(1000px - (#{$spacing-unit} * 2));
+    max-width:         calc(1000px - (#{$spacing-unit} * 2));
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;
-    padding-left: $spacing-unit;
+    padding-left: $spacing-unit ;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
-        max-width: -webkit-calc(800px - (#{$spacing-unit}));
-        max-width:         calc(800px - (#{$spacing-unit}));
+        max-width: -webkit-calc(1000px - (#{$spacing-unit}));
+        max-width:         calc(1000px - (#{$spacing-unit}));
         padding-right: $spacing-unit / 2;
         padding-left: $spacing-unit / 2;
     }
@@ -199,8 +258,10 @@ pre {
         height: 16px;
         vertical-align: middle;
 
+
         path {
-            fill: $grey-color;
+
+            fill: #00458c;
         }
     }
 }
