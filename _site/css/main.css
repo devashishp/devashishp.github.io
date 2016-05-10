@@ -110,6 +110,12 @@ pre {
     padding-right: 0;
     padding-left: 0; }
 
+pre.c404 {
+  font-size: 15px;
+  border: none;
+  color: #00458c;
+  background-color: #fff; }
+
 /* ------- pagination -------- */
 .pagination {
   height: 36px; }
