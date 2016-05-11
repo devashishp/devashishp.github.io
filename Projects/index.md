@@ -8,9 +8,9 @@ permalink: /projects/
 Similar image retrieval system using global features – shape; and local features
 – Discrete Wavelet Transform (DWT) of shape distribution and Single Value
 Decomposition (SVD) of the image.  
-[github.com/devashishp/Project](https://github.com/devashishp/Project)
+[github.com/devashishp/Project](https://github.com/devashishp/Project){:target="\_blank"}
 
 - Motion detection  
 Python program using OpenCV to detect and respond to hand gestures to flip
 through slides or photos :  
-[github.com/devashishp/MotionDetection/](https://github.com/devashishp/MotionDetection/)
+[github.com/devashishp/MotionDetection/](https://github.com/devashishp/MotionDetection/){:target="\_blank"}

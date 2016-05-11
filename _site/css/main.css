@@ -6,11 +6,23 @@ p, blockquote, pre, dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0; }
 
+ul.share-button {
+  list-style: none;
+  padding: 0;
+  margin: 0; }
+
+ul.share-buttons li {
+  display: inline;
+  float: right; }
+
+ul.share-buttons img {
+  width: 22px; }
+
 /**
  * Basic styling
  */
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -124,18 +136,15 @@ pre.c404 {
   display: inline-block;
   margin: 0;
   padding: 0;
+  background-color: #00458c;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-  border-radius: 3px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+  border-radius: 3px; }
 
 .pagination li {
   display: inline; }
 
 .pagination li:first-child a {
-  border-left-width: 1px;
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px; }
@@ -149,18 +158,19 @@ pre.c404 {
   float: left;
   padding: 0 14px;
   line-height: 34px;
-  border: 1px solid #DDD;
+  color: #FFC500;
   border-left-width: 0; }
 
 .pagination a:hover, .active a {
-  background-color: whiteSmoke; }
+  background-color: #FFC500;
+  color: #00458c; }
 
 .disabled a, .disabled a:hover,
 .active a, .active a:hover {
-  color: #999;
   cursor: default; }
 
 .disabled a:hover {
+  color: #FFC500;
   background-color: transparent; }
 
 /**
@@ -173,7 +183,7 @@ pre.c404 {
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .wrapper {
       max-width: -webkit-calc(1000px - (30px));
       max-width: calc(1000px - (30px));
@@ -301,7 +311,7 @@ pre.c404 {
   font-size: 30px;
   letter-spacing: -1px;
   line-height: 1; }
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 1000px) {
     .post-title {
       font-size: 24px; } }
 
@@ -309,17 +319,17 @@ pre.c404 {
   margin-bottom: 30px; }
   .post-content h2 {
     font-size: 28px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
       .post-content h2 {
         font-size: 24px; } }
   .post-content h3 {
     font-size: 26px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
       .post-content h3 {
         font-size: 22px; } }
   .post-content h4 {
     font-size: 20px; }
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 1000px) {
       .post-content h4 {
         font-size: 18px; } }
 

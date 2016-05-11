@@ -8,7 +8,20 @@ p, blockquote, pre, dl, dd, ol, ul, figure {
 }
 
 
+ul.share-button{
+  list-style: none;
+  padding: 0;
+  margin:0;
+}
 
+ul.share-buttons li{
+  display: inline;
+  float: right;
+}
+
+ul.share-buttons img{
+  width: 22px;
+}
 /**
  * Basic styling
  */
@@ -171,20 +184,19 @@ pre.c404{
   display: inline-block;
   margin: 0;
   padding: 0;
+  background-color: #00458c;
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
   border-radius: 3px;
-  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .pagination li {
+
   display: inline;
 }
 
 .pagination li:first-child a {
-  border-left-width: 1px;
+  // border-left-width: 1px;
   -webkit-border-radius: 3px 0 0 3px;
   -moz-border-radius: 3px 0 0 3px;
   border-radius: 3px 0 0 3px;
@@ -200,21 +212,24 @@ pre.c404{
   float: left;
   padding: 0 14px;
   line-height: 34px;
-  border: 1px solid #DDD;
+  color: #FFC500;
+  // border: 1px solid #DDD;
   border-left-width: 0;
 }
 
 .pagination a:hover, .active a {
-  background-color: whiteSmoke;
+  background-color: #FFC500;
+  color: #00458c;
 }
 
 .disabled a, .disabled a:hover,
 .active a, .active a:hover {
-  color: #999;
+
   cursor: default;
 }
 
 .disabled a:hover {
+  color: #FFC500;
   background-color: transparent;
 }
 /**
