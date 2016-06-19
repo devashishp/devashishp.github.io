@@ -16,7 +16,7 @@ Curriculum Vitæ
 <hr>
 # Education
 
-2012 – Present *Bachelor of Engineering, Computer Engineering*, University of Pune, India.
+2012 – 2016 *Bachelor of Engineering, Computer Engineering*, University of Pune, India.
 
 69.23% - First Class with Distinction.
 

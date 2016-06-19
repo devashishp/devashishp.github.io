@@ -7,6 +7,8 @@ date: '2016-05-10 17:34:17'
 
 I have migrated my flashy homepage to this lousy blog. I hope to give it a professional look now. The color scheme does *not* hint at anything. Over the next few months, now that I will be mostly free, I will update this site more frequently. Feel free to check out the pages linked in the top bar. I have added a host of things including :horse: emoji support!  
 
+Now with Math support!! \\( a^{2} +b^{2} = c^{2} \\)
+
 I am not a web developer, nor do I plan to be so it makes sense for me to ditch that flashy nodejs thing which is like it is because I couldn't figure out a way to change it. Feel free to contact me for any suggestions.
 
 P.S. My digitalocean subscription ending in August has absolutely **NOTHING** to do with this and I deny all charges :rage:!!

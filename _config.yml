@@ -1,8 +1,6 @@
 # Site settings
 title: Devashish Purandare
 email: devashish@outlook.com
-description: > # this means to ignore newlines until "baseurl:"
-  My Personal Website
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://devashishpurandare.me" # the base hostname & protocol for your site
 twitter_username: dev14e
@@ -18,4 +16,4 @@ gems:
 # Build settings
 paginate: 5
 paginate_path: "/:num/"
-markdown: kramdown
+markdown: kramdown 
