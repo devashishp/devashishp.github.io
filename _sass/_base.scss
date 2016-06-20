@@ -31,11 +31,21 @@ body {
     line-height: $base-line-height;
     font-weight: 400;
     color: $text-color;
-    background-color: $background-color;
+    background-color: #fff;
     -webkit-text-size-adjust: 100%;
 }
 
-
+div.line {
+//padding-top: 2px;
+//padding-bottom: 2px;
+margin: 6px;
+background-color:#fff;
+width: 100%;
+height: 2px;
+background-image: linear-gradient(to right,#fff,#00458c,#fff);
+//background: #00458c;
+overflow: hidden;
+}
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -49,6 +59,7 @@ ul, ol, dl, figure,
 h1, h2, h3, h4, h5, h6{
   font-weight: 400;
   color: #1D2933;
+  letter-spacing: -1px;
 }
 
 /**
@@ -146,10 +157,10 @@ code {
 }
 
 hr {
-    border: 0;
+    border: 0px;
     height: 2px;
     background: #00458c;
-    background-image: linear-gradient(to right, #fff, #00458c, #fff);
+    //background-image: linear-gradient(to right, #00458c, #ffc500, #00458c);
   // background-color: #00458c;
 }
 

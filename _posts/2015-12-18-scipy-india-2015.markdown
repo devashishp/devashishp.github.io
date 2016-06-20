@@ -10,18 +10,20 @@ Just last week, I attended Scipy India 2015, an annual conference on scientific 
 Note: These are for my own reference, but I believe will be worth your time if you labor through my gibberish.
 
 ![Coupons](/assets/jpg/scipy.jpg)
----
-
-###Scipy India 2015 - IIT Bombay
 
 
-##Day 1
+<div class="line"></div>
+
+### Scipy India 2015 - IIT Bombay
+
+
+## Day 1
 
 
     8:30 - 09:00 AM Registration and Breakfast
 
 
-#Session 1: Setup
+# Session 1: Setup
 
 	9:00 - 10:00 AM
 
@@ -30,10 +32,9 @@ Note: These are for my own reference, but I believe will be worth your time if y
 2. Virtualbox, Andreas' virtual image/ virtualbox
 [Andreas' virtual image](http://andreask.cs.illinois.edu/tmp/sc15-tutorial.ova)
 
-______
 
 
-#Session 2: Introduction to Scientific Computing with Python
+# Session 2: Introduction to Scientific Computing with Python
 
 *Prabhu Ramchandran and Jarrod Millman*
 
@@ -52,10 +53,8 @@ Ctrl + r Search
 - Slicing is *NOT* copying, view of the same data.
 - [Slides](http://www.jarrodmillman.com/scipyindia2015tutorials.html)
 
-_______
     01:00 - 02:00 PM Lunch
 
-________    
 **Session 3: SymPy**
 
 *Sumith*
@@ -73,16 +72,16 @@ Example:
 {% highlight python %}
   x           x       
 ℯ ⋅sin(x) + ℯ ⋅cos(x)
-init_printing() #to get LaTeX like formatting
+init_printing() # to get LaTeX like formatting
 simplify('string') #Converts string into symbols/Simplifies
 cos(2).evalf() #Evaluates the values
 {% endhighlight %}    
 - `gamma(x) == Γ(x-1)`
 - [Slides and Notebooks](https://github.com/Sumith1896/scipy-2014-tutorial)
 
-___
+<div class="line"></div>
 
-#Session 4: Introduction to data anaysis with pandas**  
+# Session 4: Introduction to data anaysis with pandas**  
 
 *Bargava Subramanian*
 
@@ -90,22 +89,21 @@ ___
 
 - dataframe like r
 
-___
+<div class="line"></div>
 
-#Session 5: BioPython
+# Session 5: BioPython
 *Sourav Singh*
 
     06:00 - 07:00 PM
 
 - [Tutorial](https://github.com/souravsingh/biopython_workshop)
 
------------
------------
+<div class="line"></div>
 
-##Day 2
+## Day 2
 
 
-#Session 1: NetworkX
+# Session 1: NetworkX
 
 *Mridul Seth and Himanshu Mishra*
 
@@ -115,9 +113,9 @@ ___
 - add nodes/edges
 - [Tutorial](https://github.com/MridulS/NetworkX-Tutorial)
 
-___
+<div class="line"></div>
 
-#Session 2: Domain Specific Languages and High Performance computing in Python
+# Session 2: Domain Specific Languages and High Performance computing in Python
 
 *Andreas Klöckner*
 
@@ -153,9 +151,9 @@ Divide
 
 - [Complete tutorial](https://github.com/inducer/languages-and-codegen-tutorial)
 
-___
+<div class="line"></div>
 
-#Session 3: Pandas applications
+# Session 3: Pandas applications
 
 *by Prof. Madhu Belur, Saurabh Kumar & Shana Moothedath*
 
@@ -166,9 +164,9 @@ ___
 
 [Tutorial](https://github.com/saurabhkm/SciPy2015)
 
-___
+<div class="line"></div>
 
-#Session 4: Pyomo - COIN-OR optimization
+# Session 4: Pyomo - COIN-OR optimization
 
 *by Prof. Ashutosh Mahajan, Prof. Jayendran Venkateswaran & Mr. Atul Kumar*
 
@@ -178,11 +176,12 @@ ___
 - Non-linear optimization
 - [Website](http://www.coin-or.org/)
 
--------------
+<div class="line"></div>
 
-##Day 3
 
-#Andreas Klöckner's Keynote
+## Day 3
+
+# Andreas Klöckner's Keynote
 
     09:15 - 10:15 AM
 
@@ -235,10 +234,10 @@ result = a_dev.get()
 
 [Homepage](http://cs.illinois.edu/~andreask)
 
-___
+<div class="line"></div>
 
 
-#Python for statistics
+# Python for statistics
 
 *Jarrod Millman*
 
@@ -274,9 +273,9 @@ ___
 
 - [Slides](http://www.jarrodmillman.com/scipyindia2015talk.html)
 
-___
+<div class="line"></div>
 
-#Python based science lab
+# Python based science lab
 
 *Ajith Kumar*
 
@@ -286,9 +285,9 @@ ___
 - microcontroller for data acqusition, python for program
 - [http://seelablet.jithinbp.in](http://seelablet.jithinbp.in)
 
-___
+<div class="line"></div>
 
-#Symengine and Sympy
+# Symengine and Sympy
 
 *Sumith*
 
@@ -302,17 +301,18 @@ Cython - blend of Python and C ::
 
 `cdef int i,a,b;`
 
-___
+<div class="line"></div>
 
-#Sandhi : Visual Programming Software
+# Sandhi : Visual Programming Software
 
     12:10 - 12:35
 
 - Replacement for Labview - Laboratory Virtual Instrument Engineering Workbench
 
-___   
+<div class="line"></div>   
 
-#Open Source optimization  - COIN OR
+
+# Open Source optimization  - COIN OR
 
 *Prof Ted Ralphs*
 
@@ -323,6 +323,4 @@ ___
 [COIN OR suite](http://coral.ie.lehigh.edu/ted/teaching/coin-or)
 
 
-___
 
-___

@@ -27,8 +27,16 @@ body {
   line-height: 1.5;
   font-weight: 400;
   color: #1D2933;
-  background-color: #ffffff;
+  background-color: #fff;
   -webkit-text-size-adjust: 100%; }
+
+div.line {
+  margin: 6px;
+  background-color: #fff;
+  width: 100%;
+  height: 2px;
+  background-image: linear-gradient(to right, #fff, #00458c, #fff);
+  overflow: hidden; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -39,7 +47,8 @@ ul, ol, dl, figure {
 
 h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
-  color: #1D2933; }
+  color: #1D2933;
+  letter-spacing: -1px; }
 
 /**
  * Images
@@ -107,10 +116,9 @@ code {
   padding: 1px 5px; }
 
 hr {
-  border: 0;
+  border: 0px;
   height: 2px;
-  background: #00458c;
-  background-image: linear-gradient(to right, #fff, #00458c, #fff); }
+  background: #00458c; }
 
 .date {
   color: #4b6a84; }
@@ -215,14 +223,13 @@ pre.c404 {
  */
 .site-header {
   min-height: 56px;
-  background-color: #00458c;
-  border-bottom: 4px solid #FFC500;
+  background-image: linear-gradient(271deg, #002b57, #00458c);
+  border-bottom: 7px solid #FFC500;
   position: relative; }
 
 .site-title {
-  font-size: 26px;
+  font-size: 30px;
   line-height: 56px;
-  letter-spacing: -1px;
   color: #FFC500;
   margin-bottom: 0;
   float: left; }
@@ -237,7 +244,7 @@ pre.c404 {
     display: none; }
   .site-nav .page-link {
     color: #FFC500;
-    background-color: #00458c;
+    background-color: inherit;
     line-height: 1.5;
     margin-left: 30px; }
     .site-nav .page-link:hover {

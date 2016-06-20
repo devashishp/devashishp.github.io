@@ -5,7 +5,11 @@ permalink: /about/
 ---
 
 ### Devashish Purandare <img style="float: right;" src="../assets/jpg/dp.jpg" height="200px" widht="200px">  
-BE Computer Engineering Student  
+
+# Computer Engineer.
+
+BE Computer Engineering.
+
 University of Pune  
 Contact me : <a href="mailto:&#100;&#101;&#118;&#097;&#115;&#104;&#105;&#115;&#104;&#046;&#112;&#117;&#114;&#097;&#110;&#100;&#097;&#114;&#101;+&#098;&#108;&#111;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Email</a>
 
