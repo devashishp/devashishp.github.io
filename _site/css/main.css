@@ -103,7 +103,7 @@ blockquote {
   padding: 1em;
   color: #777d7a;
   border-left: 2px solid #69c;
-  background: #f5f7f9; }
+  background: #f2f8ff; }
   blockquote > :last-child {
     margin-bottom: 0; }
 
@@ -117,7 +117,7 @@ code {
   padding: 1em;
   color: #777d7a;
   border-left: 2px solid #69c;
-  background: #f5f7f9; }
+  background: #f2f8ff; }
 
 code {
   padding: 2px 4px;
