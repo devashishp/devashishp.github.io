@@ -8,12 +8,23 @@ permalink: /about/
 
 # Computer Engineer.
 
-BE Computer Engineering.
-
-University of Pune  
+University of Pune 2016.
 Contact me : <a href="mailto:&#100;&#101;&#118;&#097;&#115;&#104;&#105;&#115;&#104;&#046;&#112;&#117;&#114;&#097;&#110;&#100;&#097;&#114;&#101;+&#098;&#108;&#111;&#103;&#064;&#103;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;">Email</a>
 
 My interests lie across the entire spectrum of computer science, ranging from distributed systems, databases and computer architecture to natural language processing, machine learning and artificial intelligence.  
+
+---
+
+# My Name
+
+#### First Name
+
+Devashish is a *[samāsa](https://en.wikipedia.org/wiki/Sanskrit_compound)* of the words Deva (God) and Ashish (Blessing). You can call me Dev, I prefer it short. However if you want to get it right, you will have to pronounce it Devá with a soft d like "th" in then, and "Ashish" making it Devashish. If you insist on getting it perfect, you have the pronounce the last "sh" as /ʂ/. It's written देवाशिष in Hindi/Marathi/Sanskrit.
+
+#### Last Name
+
+It is **Purandare**. ...
+The closest approximation I could come up with was *"Pooh-Ran-The-Ray."*. Good luck with that. It's written पुरंदरे in Hindi/Marathi/Sanskrit.
 
 I am **NOT** a bot. Why would you ask!?
 

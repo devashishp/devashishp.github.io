@@ -25,7 +25,7 @@ ul.share-buttons img {
  * Basic styling
  */
 body {
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Helvetica", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   font-weight: 400;
@@ -49,6 +49,7 @@ ul, ol, dl, figure {
   margin-bottom: 10px; }
 
 h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', serif;
   font-weight: 400;
   color: #333;
   letter-spacing: -1px; }
@@ -92,7 +93,8 @@ a {
   color: #00458c;
   text-decoration: none; }
   a:hover {
-    color: #0d84ff; }
+    color: #006bd9;
+    text-decoration: underline; }
 
 /**
  * Blockquotes
@@ -250,7 +252,9 @@ pre.c404 {
 
 .site-title {
   font-size: 32px;
-  padding: 10px 20px;
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 300;
+  padding: 10px 10px;
   text-decoration: none;
   transition: none 200ms ease-out;
   transition-property: color, background;
@@ -259,8 +263,9 @@ pre.c404 {
   margin-bottom: 0;
   float: left; }
   .site-title:hover {
-    background: #002b57;
-    color: white; }
+    background: #001f40;
+    color: white;
+    text-decoration: none; }
 
 .site-nav {
   float: right;
@@ -280,7 +285,7 @@ pre.c404 {
     line-height: 1.5;
     margin-left: 0px; }
     .site-nav .page-link:hover {
-      background: #002b57;
+      background: #001f40;
       color: white; }
   @media screen and (max-width: 600px) {
     .site-nav {
@@ -331,6 +336,18 @@ pre.c404 {
   list-style: none; }
   .post-list > li {
     margin-bottom: 0; }
+
+.disqus {
+  border-bottom: 1px solid #eee;
+  border-right: 1px solid #eee;
+  border-left: 1px solid #eee;
+  padding: 10px 10px;
+  text-decoration: none;
+  transition: none 200ms ease-out;
+  transition-property: color, background; }
+  .disqus:hover {
+    background: #f5f7f9;
+    color: #333; }
 
 .post-meta {
   border-bottom: 1px solid #eee;
