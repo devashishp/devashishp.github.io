@@ -5,9 +5,24 @@
     <description></description>
     <link>http://devashishpurandare.me/</link>
     <atom:link href="http://devashishpurandare.me/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 30 Jul 2016 00:00:51 +0530</pubDate>
-    <lastBuildDate>Sat, 30 Jul 2016 00:00:51 +0530</lastBuildDate>
-    <generator>Jekyll v3.1.3</generator>
+    <pubDate>Sat, 17 Sep 2016 08:47:35 +0530</pubDate>
+    <lastBuildDate>Sat, 17 Sep 2016 08:47:35 +0530</lastBuildDate>
+    <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>It's UC Santa Cruz!</title>
+        <description>&lt;p align=&quot;center&quot;&gt;&lt;img src=&quot;/assets/jpg/UC_Santa_Cruz_Vertical.png&quot; alt=&quot;Logo&quot; style=&quot;width: 500px;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;It is with great pleasure that I announce I have joined the University of California, Santa Cruz as a graduate student for Computer Science! After a year of hard work and tough decisions, I am proud to call myself a Banana Slug.
+And the best part is, this is just the start, who knows what’s around the corner!&lt;/p&gt;
+
+</description>
+        <pubDate>Fri, 16 Sep 2016 19:55:45 +0530</pubDate>
+        <link>http://devashishpurandare.me/2016/09/16/It-is-UC-Santa-Cruz.html</link>
+        <guid isPermaLink="true">http://devashishpurandare.me/2016/09/16/It-is-UC-Santa-Cruz.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>This is my li̶f̶e̶ site now!</title>
@@ -176,7 +191,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-python&quot; data-lang=&quot;python&quot;&gt;  &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;           &lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;       
 &lt;span class=&quot;err&quot;&gt;ℯ&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;⋅&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;sin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;ℯ&lt;/span&gt; &lt;span class=&quot;err&quot;&gt;⋅&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;init_printing&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;# to get LaTeX like formatting&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;simplify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&#39;string&#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Converts string into symbols/Simplifies&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;simplify&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;'string'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Converts string into symbols/Simplifies&lt;/span&gt;
 &lt;span class=&quot;n&quot;&gt;cos&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;evalf&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;()&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;#Evaluates the values&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;ul&gt;

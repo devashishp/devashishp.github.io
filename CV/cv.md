@@ -18,9 +18,10 @@ Curriculum Vitæ
 
 # Education
 
-2012 – 2016 &nbsp; *Bachelor of Engineering*, **Computer Engineering, University of Pune,**India.
+2016 -- Present &nbsp; *Master of Science*, **Computer Science, University of California, Santa Cruz.** 
 
-69.08% - First Class with Distinction.
+2012 -- 2016 &nbsp; *Bachelor of Engineering*, **Computer Engineering, University of Pune.**
+
 
 Relevant Coursework : Data Structures, Operating Systems, Networking, Databases and Data Mining,
 Algorithms, Compilers, Computer Graphics, Artificial Intelligence, Microprocessors,
