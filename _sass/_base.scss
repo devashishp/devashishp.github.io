@@ -62,10 +62,10 @@ ul, ol, dl, figure,
 }
 
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Libre Baskerville', serif;
-  font-weight: 400;
-  color: #333;
-  letter-spacing: -1px;
+  font-family: 'Raleway', serif;
+//   font-weight: 400;
+  color: #11AA11;;
+//   letter-spacing: -1px;
 }
 
 /**
@@ -119,13 +119,13 @@ li {
  * Links
  */
 a {
-    color: $brand-color;
+    color: #11AA11;;
     text-decoration: none;
 
 
     &:hover {
-        color: lighten($brand-color, 15%);
-        text-decoration: underline;
+        color: darken($brand-color, 15%);
+        // text-decoration: underline;
     }
 }
 
@@ -139,7 +139,7 @@ blockquote {
   border-bottom: 1px solid #d8dee9;
   padding: 1em;
   color: #777d7a;
-  border-left: 2px solid #69c;
+  border-left: 3px solid #11AA11;
   background: lighten($brand-color,70%);
 
     > :last-child {

@@ -20,6 +20,11 @@ Curriculum Vitæ
 
 2016 -- Present &nbsp; *Master of Science*, **Computer Science, University of California, Santa Cruz.** 
 
+Coursework Undertaken : 
+
+- CMPS 232 Distributed Systems
+- CMPS 242 Machine Learning
+
 2012 -- 2016 &nbsp; *Bachelor of Engineering*, **Computer Engineering, University of Pune.**
 
 

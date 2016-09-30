@@ -6,10 +6,7 @@
     // background-image: linear-gradient(90deg,darken($brand-color,12%),$brand-color,darken($brand-color,12%));
     transition: none 200ms ease-out;
     transition-property: background;
-    background: $brand-color;
-    &:hover {
-      background: darken($brand-color,5%)
-    }
+    background: #000;
     // border-bottom: 1px solid $color-two;
     background-position: center top;
     background-repeat: no-repeat;
@@ -19,30 +16,33 @@
     text-align: center;
     // Positioning context for the mobile navigation icon
     position: relative;
+    border-bottom: 3px solid $brand-color;
 }
 
 .site-title {
-    // border: 1px solid #fff;
-    // border-radius: 290486px;
-    font-size: 28px;
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 300;
-    padding: 10px 10px;
-    // line-height: 56px;
-    // text-transform: uppercase;
-    text-decoration: none;
-    transition: none 200ms ease-out;
-    transition-property: color, background;
-    color: $color-two;
-    letter-spacing: -1px;
-    margin-bottom: 0;
-    float: left;
+        font-size: 32px;
+        padding-top: 5px;
+        float: left;
+        background-color: inherit;
+        text-decoration: none;
+        transition: none 200ms ease-out;
+        transition-property: color, background;
+        color: $color-two;
+        font-family: 'Raleway', sans-serif;
+        // letter-spacing: -1px;
+        line-height: $base-line-height;
+
+        // Gaps between nav items, but not on the first one
+        margin-left: 0px;
 
     // &,
     &:hover {
-      background:  darken($brand-color,15%);
-      color: lighten($color-two,25%);
+    //   border-bottom: 3px solid #fff;  
       text-decoration: none;
+    //   border-bottom: 3px solid #11aa11;
+            color: #11AA11;
+            
+      
     }
 }
 
@@ -58,18 +58,19 @@
     }
 
     .page-link {
-        color: $color-two;
         padding: 20px 20px;
         background-color: inherit;
         text-decoration: none;
         transition: none 200ms ease-out;
         transition-property: color, background;
         color: $color-two;
+        font-family: 'Raleway', sans-serif;
         // letter-spacing: -1px;
         &:hover {
-          background:  darken($brand-color,15%);
-          color: lighten($color-two,25%);
-
+            border-bottom: 5px solid #11aa11;
+            color: #11AA11;
+            // border-left: 3px solid #fff;
+            // border-right: 3px solid #fff;
         }
         line-height: $base-line-height;
 
@@ -82,7 +83,7 @@
         position: absolute;
         top: 9px;
         right: 30px;
-        background-color: $brand-color;
+        background-color: #000;
         border-radius: 2px;
         text-align: right;
 
@@ -94,12 +95,13 @@
             line-height: 0;
             padding-top: 10px;
             text-align: center;
-
+background: #000;
             > svg {
                 width: 18px;
                 height: 15px;
-
+                
                 path {
+                    
                     fill: $brand-color;
                 }
             }
@@ -288,7 +290,7 @@
 }
 
 .post-title {
-    font-size: 42px;
+    font-size: 36px;
     letter-spacing: -1px;
     line-height: 1.2;
     border-right: 1px solid #eee;
@@ -299,9 +301,10 @@
     text-decoration: none;
     transition: none 200ms ease-out;
     transition-property: color, background;
+    color: #11AA11;    
     &:hover{
       background: #f5f7f9;
-      color: #333;
+      
       
     }
     // padding-top: 10px;
