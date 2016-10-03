@@ -4,7 +4,7 @@ title: About Me
 permalink: /about/
 ---
 
-### Devashish Purandare <img style="float: right;" src="../assets/jpg/dp.jpg" height="200px">  
+### Devashish Purandare <img style="float: right;" src="{{site.baseurl}}/assets/jpg/dp.jpg" height="200px">  
 
 # Graduate Student.
 

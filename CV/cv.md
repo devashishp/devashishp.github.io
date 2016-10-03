@@ -3,7 +3,7 @@ layout: page
 title: CV
 permalink: /cv/
 ---
-[PDF version](../assets/pdf/cv.pdf){:target="\_blank"}
+[PDF version]({{site.baseurl}}/assets/pdf/cv.pdf){:target="\_blank"}
 <div class="line"></div>
 
 ## Devashish Purandare
