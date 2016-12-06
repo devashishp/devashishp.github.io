@@ -133,10 +133,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  github-pages (= 96)
+  github-pages
   jekyll-paginate
   jemoji
   json
 
 BUNDLED WITH
-   1.13.1
+   1.13.6
