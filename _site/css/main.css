@@ -37,7 +37,7 @@ a { color: #FF4E00; text-decoration: none; }
 a:hover { color: #b33700; }
 
 /** Blockquotes */
-blockquote { font-size: 16px; border-bottom: 1px solid #d8dee9; padding: 1em; color: #777d7a; border-left: 3px solid #11AA11; background: white; }
+blockquote { font-size: 16px; border-bottom: 1px solid #d8dee9; padding: 1em; color: #777d7a; border-left: 3px solid #FF4E00; background: white; }
 blockquote > :last-child { margin-bottom: 0; }
 
 /** Code formatting */
@@ -124,7 +124,7 @@ pre.c404 { font-size: 15px; line-height: 0.8; border: none; color: #fff; backgro
 /** Posts */
 .post-header { padding-top: 20px; margin-bottom: 0; }
 
-.post-title { font-size: 36px; line-height: 1.2; border-right: 1px solid #eee; border-left: 1px solid #eee; border-top: 1px solid #eee; padding: 10px 10px; margin-bottom: 10px; text-decoration: none; transition: none 200ms ease-out; transition-property: color, background; color: #11AA11; }
+.post-title { font-size: 36px; line-height: 1.2; border-right: 1px solid #eee; border-left: 1px solid #eee; border-top: 1px solid #eee; padding: 10px 10px; margin-bottom: 10px; text-decoration: none; transition: none 200ms ease-out; transition-property: color, background; }
 .post-title:hover { background: #f5f7f9; }
 @media screen and (max-width: 1000px) { .post-title { font-size: 24px; } }
 

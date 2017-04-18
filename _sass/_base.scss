@@ -64,7 +64,7 @@ ul, ol, dl, figure,
 h1, h2, h3, h4, h5, h6{
   font-family: 'Raleway', serif;
 //   font-weight: 400;
-  color: #FF4E00;
+  color: $brand-color;
 //   letter-spacing: -1px;
 }
 
@@ -139,7 +139,7 @@ blockquote {
   border-bottom: 1px solid #d8dee9;
   padding: 1em;
   color: #777d7a;
-  border-left: 3px solid #11AA11;
+  border-left: 3px solid $brand-color;
   background: lighten($brand-color,70%);
 
     > :last-child {
