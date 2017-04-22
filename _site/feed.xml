@@ -3,11 +3,11 @@
   <channel>
     <title>Devashish Purandare</title>
     <description></description>
-    <link>http://devashishpurandare.me/</link>
-    <atom:link href="http://devashishpurandare.me/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 18 Apr 2017 10:38:00 +0530</pubDate>
-    <lastBuildDate>Tue, 18 Apr 2017 10:38:00 +0530</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 22 Apr 2017 09:23:22 +0530</pubDate>
+    <lastBuildDate>Sat, 22 Apr 2017 09:23:22 +0530</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
     
       <item>
         <title>It's UC Santa Cruz!</title>
@@ -18,8 +18,8 @@ And the best part is, this is just the start, who knows what’s around the corn
 
 </description>
         <pubDate>Fri, 16 Sep 2016 19:55:45 +0530</pubDate>
-        <link>http://devashishpurandare.me/2016/09/16/It-is-UC-Santa-Cruz.html</link>
-        <guid isPermaLink="true">http://devashishpurandare.me/2016/09/16/It-is-UC-Santa-Cruz.html</guid>
+        <link>http://localhost:4000/2016/09/16/It-is-UC-Santa-Cruz.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/09/16/It-is-UC-Santa-Cruz.html</guid>
         
         
       </item>
@@ -35,8 +35,8 @@ And the best part is, this is just the start, who knows what’s around the corn
 &lt;p&gt;P.S. My digitalocean subscription ending in August has absolutely &lt;strong&gt;NOTHING&lt;/strong&gt; to do with this and I deny all charges :rage:!!&lt;/p&gt;
 </description>
         <pubDate>Tue, 10 May 2016 17:34:17 +0530</pubDate>
-        <link>http://devashishpurandare.me/2016/05/10/New-Site.html</link>
-        <guid isPermaLink="true">http://devashishpurandare.me/2016/05/10/New-Site.html</guid>
+        <link>http://localhost:4000/2016/05/10/New-Site.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/05/10/New-Site.html</guid>
         
         
       </item>
@@ -47,8 +47,8 @@ And the best part is, this is just the start, who knows what’s around the corn
 :smile:&lt;/p&gt;
 </description>
         <pubDate>Tue, 29 Mar 2016 22:24:14 +0530</pubDate>
-        <link>http://devashishpurandare.me/2016/03/29/Project-Poster.html</link>
-        <guid isPermaLink="true">http://devashishpurandare.me/2016/03/29/Project-Poster.html</guid>
+        <link>http://localhost:4000/2016/03/29/Project-Poster.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/03/29/Project-Poster.html</guid>
         
         
       </item>
@@ -73,8 +73,8 @@ As the fire approached him, the man had mere seconds to react. He could stand on
 &lt;p&gt;And I am excited for the future. I hope you secured the harness. It is going to be a hell of a ride.&lt;/p&gt;
 </description>
         <pubDate>Thu, 14 Jan 2016 21:22:14 +0530</pubDate>
-        <link>http://devashishpurandare.me/2016/01/14/Leap-of-Faith.html</link>
-        <guid isPermaLink="true">http://devashishpurandare.me/2016/01/14/Leap-of-Faith.html</guid>
+        <link>http://localhost:4000/2016/01/14/Leap-of-Faith.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2016/01/14/Leap-of-Faith.html</guid>
         
         
       </item>
@@ -92,8 +92,8 @@ As the fire approached him, the man had mere seconds to react. He could stand on
 &lt;p&gt;Let me know how you feel about it.&lt;/p&gt;
 </description>
         <pubDate>Thu, 24 Dec 2015 13:29:46 +0530</pubDate>
-        <link>http://devashishpurandare.me/2015/12/24/Presenting-Geet-Mahabharat.html</link>
-        <guid isPermaLink="true">http://devashishpurandare.me/2015/12/24/Presenting-Geet-Mahabharat.html</guid>
+        <link>http://localhost:4000/2015/12/24/Presenting-Geet-Mahabharat.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/24/Presenting-Geet-Mahabharat.html</guid>
         
         
       </item>
@@ -105,8 +105,8 @@ As the fire approached him, the man had mere seconds to react. He could stand on
 &lt;p&gt;Anyway, I am too embarrassed by the &lt;em&gt;spaghetti mess&lt;/em&gt; in my CSS and Sass, so I’ve made the repository private. Cheers! :raised_hands:&lt;/p&gt;
 </description>
         <pubDate>Tue, 22 Dec 2015 19:17:46 +0530</pubDate>
-        <link>http://devashishpurandare.me/2015/12/22/spooked-by-ghost.html</link>
-        <guid isPermaLink="true">http://devashishpurandare.me/2015/12/22/spooked-by-ghost.html</guid>
+        <link>http://localhost:4000/2015/12/22/spooked-by-ghost.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/22/spooked-by-ghost.html</guid>
         
         
       </item>
@@ -332,7 +332,7 @@ Note: These are for my own reference, but I believe will be worth your time if y
 
 &lt;h2 id=&quot;day-3&quot;&gt;Day 3&lt;/h2&gt;
 
-&lt;h1 id=&quot;andreas-klckners-keynote&quot;&gt;Andreas Klöckner’s Keynote&lt;/h1&gt;
+&lt;h1 id=&quot;andreas-klöckners-keynote&quot;&gt;Andreas Klöckner’s Keynote&lt;/h1&gt;
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;09:15 - 10:15 AM
 &lt;/code&gt;&lt;/pre&gt;
@@ -515,8 +515,8 @@ __kernel void twice (__global float *a)
 
 </description>
         <pubDate>Fri, 18 Dec 2015 14:27:46 +0530</pubDate>
-        <link>http://devashishpurandare.me/2015/12/18/scipy-india-2015.html</link>
-        <guid isPermaLink="true">http://devashishpurandare.me/2015/12/18/scipy-india-2015.html</guid>
+        <link>http://localhost:4000/2015/12/18/scipy-india-2015.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/12/18/scipy-india-2015.html</guid>
         
         
       </item>
@@ -532,8 +532,8 @@ __kernel void twice (__global float *a)
 &lt;p&gt;I wish more such movies were made.&lt;/p&gt;
 </description>
         <pubDate>Sat, 19 Sep 2015 07:31:15 +0530</pubDate>
-        <link>http://devashishpurandare.me/2015/09/19/movie-the-book-thief.html</link>
-        <guid isPermaLink="true">http://devashishpurandare.me/2015/09/19/movie-the-book-thief.html</guid>
+        <link>http://localhost:4000/2015/09/19/movie-the-book-thief.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/09/19/movie-the-book-thief.html</guid>
         
         
       </item>
@@ -550,8 +550,8 @@ This along with my site http://devashishpurandare.me are now mostly functional. 
 &lt;p&gt;I’m still new to this whole concept, so expect many mistakes…&lt;/p&gt;
 </description>
         <pubDate>Sun, 12 Jul 2015 06:26:14 +0530</pubDate>
-        <link>http://devashishpurandare.me/2015/07/12/hello-world.html</link>
-        <guid isPermaLink="true">http://devashishpurandare.me/2015/07/12/hello-world.html</guid>
+        <link>http://localhost:4000/2015/07/12/hello-world.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2015/07/12/hello-world.html</guid>
         
         
       </item>
