@@ -5,8 +5,8 @@
     <description></description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 22 Apr 2017 09:23:22 +0530</pubDate>
-    <lastBuildDate>Sat, 22 Apr 2017 09:23:22 +0530</lastBuildDate>
+    <pubDate>Sun, 30 Apr 2017 17:34:04 -0700</pubDate>
+    <lastBuildDate>Sun, 30 Apr 2017 17:34:04 -0700</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -17,7 +17,7 @@
 And the best part is, this is just the start, who knows what’s around the corner!&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 16 Sep 2016 19:55:45 +0530</pubDate>
+        <pubDate>Fri, 16 Sep 2016 19:55:45 -0700</pubDate>
         <link>http://localhost:4000/2016/09/16/It-is-UC-Santa-Cruz.html</link>
         <guid isPermaLink="true">http://localhost:4000/2016/09/16/It-is-UC-Santa-Cruz.html</guid>
         
@@ -34,7 +34,7 @@ And the best part is, this is just the start, who knows what’s around the corn
 
 &lt;p&gt;P.S. My digitalocean subscription ending in August has absolutely &lt;strong&gt;NOTHING&lt;/strong&gt; to do with this and I deny all charges :rage:!!&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 May 2016 17:34:17 +0530</pubDate>
+        <pubDate>Tue, 10 May 2016 17:34:17 -0700</pubDate>
         <link>http://localhost:4000/2016/05/10/New-Site.html</link>
         <guid isPermaLink="true">http://localhost:4000/2016/05/10/New-Site.html</guid>
         
@@ -46,7 +46,7 @@ And the best part is, this is just the start, who knows what’s around the corn
         <description>&lt;p&gt;&lt;a href=&quot;/assets/pdf/Poster.pdf&quot;&gt;Here’s the poster&lt;/a&gt; that explains the basics of my project.
 :smile:&lt;/p&gt;
 </description>
-        <pubDate>Tue, 29 Mar 2016 22:24:14 +0530</pubDate>
+        <pubDate>Tue, 29 Mar 2016 22:24:14 -0700</pubDate>
         <link>http://localhost:4000/2016/03/29/Project-Poster.html</link>
         <guid isPermaLink="true">http://localhost:4000/2016/03/29/Project-Poster.html</guid>
         
@@ -72,7 +72,7 @@ As the fire approached him, the man had mere seconds to react. He could stand on
 
 &lt;p&gt;And I am excited for the future. I hope you secured the harness. It is going to be a hell of a ride.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 14 Jan 2016 21:22:14 +0530</pubDate>
+        <pubDate>Thu, 14 Jan 2016 21:22:14 -0800</pubDate>
         <link>http://localhost:4000/2016/01/14/Leap-of-Faith.html</link>
         <guid isPermaLink="true">http://localhost:4000/2016/01/14/Leap-of-Faith.html</guid>
         
@@ -91,7 +91,7 @@ As the fire approached him, the man had mere seconds to react. He could stand on
 
 &lt;p&gt;Let me know how you feel about it.&lt;/p&gt;
 </description>
-        <pubDate>Thu, 24 Dec 2015 13:29:46 +0530</pubDate>
+        <pubDate>Thu, 24 Dec 2015 13:29:46 -0800</pubDate>
         <link>http://localhost:4000/2015/12/24/Presenting-Geet-Mahabharat.html</link>
         <guid isPermaLink="true">http://localhost:4000/2015/12/24/Presenting-Geet-Mahabharat.html</guid>
         
@@ -104,7 +104,7 @@ As the fire approached him, the man had mere seconds to react. He could stand on
 
 &lt;p&gt;Anyway, I am too embarrassed by the &lt;em&gt;spaghetti mess&lt;/em&gt; in my CSS and Sass, so I’ve made the repository private. Cheers! :raised_hands:&lt;/p&gt;
 </description>
-        <pubDate>Tue, 22 Dec 2015 19:17:46 +0530</pubDate>
+        <pubDate>Tue, 22 Dec 2015 19:17:46 -0800</pubDate>
         <link>http://localhost:4000/2015/12/22/spooked-by-ghost.html</link>
         <guid isPermaLink="true">http://localhost:4000/2015/12/22/spooked-by-ghost.html</guid>
         
@@ -514,7 +514,7 @@ __kernel void twice (__global float *a)
 &lt;p&gt;&lt;a href=&quot;http://coral.ie.lehigh.edu/ted/teaching/coin-or&quot;&gt;COIN OR suite&lt;/a&gt;&lt;/p&gt;
 
 </description>
-        <pubDate>Fri, 18 Dec 2015 14:27:46 +0530</pubDate>
+        <pubDate>Fri, 18 Dec 2015 14:27:46 -0800</pubDate>
         <link>http://localhost:4000/2015/12/18/scipy-india-2015.html</link>
         <guid isPermaLink="true">http://localhost:4000/2015/12/18/scipy-india-2015.html</guid>
         
@@ -531,7 +531,7 @@ __kernel void twice (__global float *a)
 
 &lt;p&gt;I wish more such movies were made.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 19 Sep 2015 07:31:15 +0530</pubDate>
+        <pubDate>Sat, 19 Sep 2015 07:31:15 -0700</pubDate>
         <link>http://localhost:4000/2015/09/19/movie-the-book-thief.html</link>
         <guid isPermaLink="true">http://localhost:4000/2015/09/19/movie-the-book-thief.html</guid>
         
@@ -549,7 +549,7 @@ This along with my site http://devashishpurandare.me are now mostly functional. 
 
 &lt;p&gt;I’m still new to this whole concept, so expect many mistakes…&lt;/p&gt;
 </description>
-        <pubDate>Sun, 12 Jul 2015 06:26:14 +0530</pubDate>
+        <pubDate>Sun, 12 Jul 2015 06:26:14 -0700</pubDate>
         <link>http://localhost:4000/2015/07/12/hello-world.html</link>
         <guid isPermaLink="true">http://localhost:4000/2015/07/12/hello-world.html</guid>
         

@@ -11,4 +11,3 @@ Stuff coming soon, till then you can have a look at the
 
 - [Manuscript of my ML project]({{site.baseurl}}/assets/pdf/ML.pdf){:target="\_blank"}.
 
----

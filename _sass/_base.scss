@@ -47,8 +47,6 @@ margin-bottom: 4px;
 background: #eee;
 width: 100%;
 height: 1px;
-// background-image: linear-gradient(to right,#fff,#00458c,#fff);
-//background: $brand-color;
 overflow: hidden;
 }
 
@@ -64,8 +62,7 @@ ul, ol, dl, figure,
 h1, h2, h3, h4, h5, h6{
   font-family: 'Raleway', serif;
 //   font-weight: 400;
-  color: $brand-color;
-//   letter-spacing: -1px;
+   letter-spacing: -1px;
 }
 
 /**
@@ -119,7 +116,7 @@ li {
  * Links
  */
 a {
-    color: #FF4E00;;
+    color: $brand-color;
     text-decoration: none;
 
 
@@ -172,8 +169,6 @@ hr {
     border: 0px;
     height: 2px;
     background: #eee;
-    //background-image: linear-gradient(to right, $brand-color, $color-two, $brand-color);
-  // background-color: $brand-color;
 }
 
 .date {

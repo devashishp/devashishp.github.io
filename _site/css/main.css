@@ -17,7 +17,7 @@ div.line { margin-bottom: 4px; background: #eee; width: 100%; height: 1px; overf
 /** Set `margin-bottom` to maintain vertical rhythm */
 p, blockquote, pre, ul, ol, dl, figure { margin-bottom: 10px; }
 
-h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', serif; color: #FF4E00; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Raleway', serif; letter-spacing: -1px; }
 
 /** Images */
 img { max-width: 100%; padding-left: 2px; padding-right: 2px; padding-top: 2px; padding-bottom: 2px; vertical-align: middle; margin-left: auto; margin-right: auto; }
@@ -106,12 +106,12 @@ pre.c404 { font-size: 15px; line-height: 0.8; border: none; color: #fff; backgro
 /** Page content */
 .page-content { padding: 10px 0; }
 
-.page-heading { font-size: 32px; margin-bottom: 10px; }
+.page-heading { font-size: 32px; }
 
 .post-list { margin-left: 0; list-style: none; }
 .post-list > li { margin-bottom: 0; }
 
-.post-meta { border-bottom: 1px solid #eee; border-right: 1px solid #eee; border-left: 1px solid #eee; padding: 10px 10px; text-decoration: none; transition: none 200ms ease-out; transition-property: color, background; margin-top: 0; font-size: 14px; color: #666; }
+.post-meta { border-bottom: 1px solid #eee; border-right: 1px solid #eee; border-left: 1px solid #eee; padding: 10px; text-decoration: none; transition: none 200ms ease-out; transition-property: color, background; margin-top: 0; font-size: 14px; color: #666; }
 .post-meta:hover { background: #f5f7f9; color: #333; }
 
 .post-meta1 { margin-top: 0; font-size: 14px; color: #666; }
@@ -122,9 +122,9 @@ pre.c404 { font-size: 15px; line-height: 0.8; border: none; color: #fff; backgro
 .post-excerpt:hover { background: #f5f7f9; color: #333; }
 
 /** Posts */
-.post-header { padding-top: 20px; margin-bottom: 0; }
+.post-header { margin-bottom: 0; }
 
-.post-title { font-size: 36px; line-height: 1.2; border-right: 1px solid #eee; border-left: 1px solid #eee; border-top: 1px solid #eee; padding: 10px 10px; margin-bottom: 10px; text-decoration: none; transition: none 200ms ease-out; transition-property: color, background; }
+.post-title { font-size: 36px; line-height: 1.2; border-right: 1px solid #eee; border-left: 1px solid #eee; border-top: 1px solid #eee; padding: 10px 10px; text-decoration: none; transition: none 200ms ease-out; transition-property: color, background; }
 .post-title:hover { background: #f5f7f9; }
 @media screen and (max-width: 1000px) { .post-title { font-size: 24px; } }
 
