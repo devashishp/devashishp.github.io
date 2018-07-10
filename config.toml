@@ -1,0 +1,5 @@
+baseURL = "http://dev14e.com/"
+languageCode = "en-us"
+title = "Devashish Purandare"
+theme = "theer"
+enableEmoji = true
