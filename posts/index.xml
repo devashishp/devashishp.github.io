@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Devashish Purandare</title>
-    <link>http://dev14e.com/posts/</link>
+    <link>https://dev14e.com/posts/</link>
     <description>Recent content in Posts on Devashish Purandare</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 09 Jul 2018 16:11:08 -0700</lastBuildDate>
     
-	<atom:link href="http://dev14e.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://dev14e.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello (again) World!</title>
-      <link>http://dev14e.com/posts/hello-again-world/</link>
+      <link>https://dev14e.com/posts/hello-again-world/</link>
       <pubDate>Mon, 09 Jul 2018 16:11:08 -0700</pubDate>
       
-      <guid>http://dev14e.com/posts/hello-again-world/</guid>
+      <guid>https://dev14e.com/posts/hello-again-world/</guid>
       <description>I promised myself that I would blog through grad school, yet I didn&amp;rsquo;t. My last post is just after I entered UCSC. After I switched to PhD, I have decided that I am going to perform necromancy here, to revive this dead blog.
 I have build this new blog using hugo which should be leaner, meaner and cleaner. There have been updates here and there meanwhile, you can see them in the About and Timeline sections.</description>
     </item>
     
     <item>
       <title>It&#39;s UC Santa Cruz!</title>
-      <link>http://dev14e.com/posts/archive/2016-09-16-it-is-uc-santa-cruz/</link>
+      <link>https://dev14e.com/posts/archive/2016-09-16-it-is-uc-santa-cruz/</link>
       <pubDate>Fri, 16 Sep 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://dev14e.com/posts/archive/2016-09-16-it-is-uc-santa-cruz/</guid>
+      <guid>https://dev14e.com/posts/archive/2016-09-16-it-is-uc-santa-cruz/</guid>
       <description>It is with great pleasure that I announce I have joined the University of California, Santa Cruz as a graduate student for Computer Science! After a year of hard work and tough decisions, I am proud to call myself a Banana Slug. And the best part is, this is just the start, who knows what&amp;rsquo;s around the corner!</description>
     </item>
     
     <item>
       <title>Leap of Faith</title>
-      <link>http://dev14e.com/posts/archive/2016-01-14-leap-of-faith/</link>
+      <link>https://dev14e.com/posts/archive/2016-01-14-leap-of-faith/</link>
       <pubDate>Thu, 14 Jan 2016 00:00:00 +0000</pubDate>
       
-      <guid>http://dev14e.com/posts/archive/2016-01-14-leap-of-faith/</guid>
+      <guid>https://dev14e.com/posts/archive/2016-01-14-leap-of-faith/</guid>
       <description>There is a pertinent story about a man who was working on an oil platform in the North Sea. He woke up one night from a loud explosion, which suddenly set his entire oil platform on fire. In mere moments, he was surrounded by flames. Through the smoke and heat, he barely made his way out of the chaos to the platform’s edge. When he looked down over the edge, all he could see were the dark, cold, foreboding Atlantic waters.</description>
     </item>
     
     <item>
       <title>Presenting Geet Mahabharat</title>
-      <link>http://dev14e.com/posts/archive/2015-12-24-presenting-geet-mahabharat/</link>
+      <link>https://dev14e.com/posts/archive/2015-12-24-presenting-geet-mahabharat/</link>
       <pubDate>Thu, 24 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://dev14e.com/posts/archive/2015-12-24-presenting-geet-mahabharat/</guid>
+      <guid>https://dev14e.com/posts/archive/2015-12-24-presenting-geet-mahabharat/</guid>
       <description>In the year 1961, taking inspiration from Geet Ramayan, my grandfather Dr. V. S Deshpande wrote Geet Mahabharat, a poetic ode to the great epic that inspired generations. The poems, take us for a journey which explores war, love, hate, deception, politics and ethics.
 After over 200 hundred shows across India, I am proud to present his kavita-wachan that we are going to film for the next few weeks, making the 24 poems into a 12 episode mini series.</description>
     </item>
     
     <item>
       <title>Spooked by ghost</title>
-      <link>http://dev14e.com/posts/archive/2015-12-22-spooked-by-ghost/</link>
+      <link>https://dev14e.com/posts/archive/2015-12-22-spooked-by-ghost/</link>
       <pubDate>Tue, 22 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://dev14e.com/posts/archive/2015-12-22-spooked-by-ghost/</guid>
+      <guid>https://dev14e.com/posts/archive/2015-12-22-spooked-by-ghost/</guid>
       <description>So, I just shifted my blog from Ghost to Jekyll. Since I couldn&amp;rsquo;t figure out Jekyll, I decided to use it until I could. Now I am blogging like a hacker!
 Anyway, I am too embarrassed by the spaghetti mess in my CSS and Sass, so I&amp;rsquo;ve made the repository private. Cheers! 🙌</description>
     </item>
     
     <item>
       <title>Scipy India 2015</title>
-      <link>http://dev14e.com/posts/archive/2015-12-18-scipy-india-2015/</link>
+      <link>https://dev14e.com/posts/archive/2015-12-18-scipy-india-2015/</link>
       <pubDate>Fri, 18 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://dev14e.com/posts/archive/2015-12-18-scipy-india-2015/</guid>
+      <guid>https://dev14e.com/posts/archive/2015-12-18-scipy-india-2015/</guid>
       <description>Just last week, I attended Scipy India 2015, an annual conference on scientific applications of Python. It was great, very informative and I learned a lot of things. Below are some of the notes I made at the conference. Note: These are for my own reference, but I believe will be worth your time if you labor through my gibberish.
  Scipy India 2015 - IIT Bombay Day 1 8:30 - 09:00 AM Registration and Breakfast  Session 1: Setup 9:00 - 10:00 AM   Installation of Annaconda</description>
     </item>
     
     <item>
       <title>Movie: The Book Thief</title>
-      <link>http://dev14e.com/posts/archive/2015-09-19-movie-the-book-thief/</link>
+      <link>https://dev14e.com/posts/archive/2015-09-19-movie-the-book-thief/</link>
       <pubDate>Sat, 19 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://dev14e.com/posts/archive/2015-09-19-movie-the-book-thief/</guid>
+      <guid>https://dev14e.com/posts/archive/2015-09-19-movie-the-book-thief/</guid>
       <description>This is NOT a movie review. I don&amp;rsquo;t know enough about movies to do a review.
 With that out of the way, I&amp;rsquo;d really recommend everyone to watch this one. I came up across it while reading a review of &amp;ldquo;The Grand Budapest Hotel&amp;rdquo;.
 The movie is set in WW II era Germany, and is a story of war, love, hate and books. Shot in a quirky way, each scene is a delight to the eye.</description>
@@ -82,10 +82,10 @@ The movie is set in WW II era Germany, and is a story of war, love, hate and boo
     
     <item>
       <title>Hello World!</title>
-      <link>http://dev14e.com/posts/archive/2015-07-12-hello-world/</link>
+      <link>https://dev14e.com/posts/archive/2015-07-12-hello-world/</link>
       <pubDate>Sun, 12 Jul 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://dev14e.com/posts/archive/2015-07-12-hello-world/</guid>
+      <guid>https://dev14e.com/posts/archive/2015-07-12-hello-world/</guid>
       <description>Welcome! I finally did it! This is a VPS hosted ghost blog! This along with my site http://devashishpurandare.me are now mostly functional. Cheers all around!
 On this blog, I&amp;rsquo;ll be writing about Code, Life and other stuff. I&amp;rsquo;ll try to keep away from &amp;lsquo;interesting&amp;rsquo; topics such as politics or sports, but if ther do end up creeping in, forgive me.
 I&amp;rsquo;m still new to this whole concept, so expect many mistakes&amp;hellip;</description>
