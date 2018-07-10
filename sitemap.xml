@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://dev14e.com/posts/hello-again-world/</loc>
+    <lastmod>2018-07-09T16:11:08-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/cv/</loc>
+    <lastmod>2018-07-09T06:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/research/</loc>
+    <lastmod>2018-07-09T06:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/timeline/</loc>
+    <lastmod>2018-07-09T06:13:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/about/</loc>
+    <lastmod>2018-07-09T04:30:50+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/posts/archive/2016-09-16-it-is-uc-santa-cruz/</loc>
+    <lastmod>2016-09-16T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/posts/archive/2016-01-14-leap-of-faith/</loc>
+    <lastmod>2016-01-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/posts/archive/2015-12-24-presenting-geet-mahabharat/</loc>
+    <lastmod>2015-12-24T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/posts/archive/2015-12-22-spooked-by-ghost/</loc>
+    <lastmod>2015-12-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/posts/archive/2015-12-18-scipy-india-2015/</loc>
+    <lastmod>2015-12-18T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/posts/archive/2015-09-19-movie-the-book-thief/</loc>
+    <lastmod>2015-09-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/posts/archive/2015-07-12-hello-world/</loc>
+    <lastmod>2015-07-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/</loc>
+    <lastmod>2018-07-09T16:11:08-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/posts/</loc>
+    <lastmod>2018-07-09T16:11:08-07:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://dev14e.com/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+</urlset>
